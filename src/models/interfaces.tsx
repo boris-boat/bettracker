@@ -1,4 +1,8 @@
 export interface SlipProps {
-  title: string;
-  date: string;
+  data: {
+    _id: string;
+    title: string;
+    date: string;
+    events: [];
+  };
 }
